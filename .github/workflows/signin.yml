@@ -1,10 +1,10 @@
 name：Aliyun Signin
 
 on:
- schedule:
-  #每天国际时间 17:20运行一次，中国时间01:28
-  - cron: '20 17 * * *'
- workflow dispatch :
+   schedule:
+   # 每天国际时间 17:20运行一次，中国时间01:28
+    - cron: '20 17 * * *'
+   workflow dispatch :
 jobs:
   signin:
   name: Aliyun Signin
